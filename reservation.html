@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Réserver ta place — Aurora, Terre de bien-être</title>
+<meta name="description" content="Réserve ton cours chez Aurora à Anfa : ton message WhatsApp est prêt, il ne reste qu'à l'envoyer.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#FFF6EF">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Aurora — Terre de bien-être">
+<meta property="og:title" content="Réserver ta place — Aurora, Terre de bien-être">
+<meta property="og:description" content="Réserve ton cours chez Aurora à Anfa : ton message WhatsApp est prêt, il ne reste qu'à l'envoyer.">
+<meta property="og:url" content="https://codewithadaaaam.github.io/aurora-bienetre/reservation.html">
+<meta property="og:image" content="https://codewithadaaaam.github.io/aurora-bienetre/assets/apercu.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Instrument+Serif:ital@0;1&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFF6EF;color:#44332A;font-family:'Figtree','Helvetica Neue',Helvetica,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#44332A;text-decoration:none}
+input{font-family:inherit}
+.envoyer:hover{background:#8F4A2A !important}
+
+html{scroll-behavior:smooth}
+img{max-width:100%}
+.v-mobile{display:none !important}
+.jour{height:64px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;border:1px solid #EBDDCF;border-radius:18px;background:#FFFBF7;color:#44332A;cursor:pointer;font-family:inherit;padding:0}
+.jour .num{font-family:Gloock,Georgia,serif;font-size:20px}
+.jour[aria-pressed="true"]{background:#44332A;color:#FFF6EF;border-color:#44332A}
+.jour[aria-pressed="true"] .num{color:#F0C9A4}
+.panneau[hidden]{display:none !important}
+#menu-mobile a{display:flex;align-items:center;min-height:56px;padding:0 20px;border-bottom:1px solid #EFE0D0;font-family:Gloock,Georgia,serif;font-size:22px}
+@media (max-width:760px){
+ .v-desktop{display:none !important}
+ .v-mobile{display:flex !important}
+ .nav-desk,.ig-desk{display:none !important}
+ .wrap{padding:72px 20px !important;gap:40px !important}
+ .entete{padding:14px 20px !important;flex-wrap:nowrap !important;box-sizing:border-box !important}
+ .entete img{height:40px !important}
+ .entete .btn-terre{height:42px !important;padding:0 16px !important;font-size:13px !important}
+}
+@media (min-width:761px){
+ .colonne{border-left:1px solid #EFE0D0;border-right:1px solid #EFE0D0}
+}
+</style>
+</head>
+<body>
+
+<div class="colonne" style="position: relative; width: 100%; max-width: 560px; margin: 0 auto; min-height: 100vh; background: #FFF6EF; display: flex; flex-direction: column">
+
+<header style="flex-shrink: 0; height: 68px; padding: 0 12px 0 8px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #EFE0D0"><a href="planning.html" aria-label="Retour au planning" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M10 3L5 8l5 5" stroke="#44332A" stroke-width="1.5"></path></svg></a><a href="index.html" aria-label="Aurora — accueil" style="display: flex"><img src="assets/aurora-wordmark-brun.svg" alt="Aurora" style="display: block; height: 30px; width: auto"></a><span style="width: 44px" aria-hidden="true"></span></header>
+<section aria-labelledby="titre-resa" style="position: relative; background: #FFF6EF; padding: 24px 20px 40px; display: flex; flex-direction: column; gap: 16px">
+
+<div style="display: flex; justify-content: space-between; align-items: center">
+<h1 id="titre-resa" style="margin: 0; font-family: Gloock, Georgia, serif; font-size: 26px; font-weight: 400">Réserver ta place</h1>
+<a href="planning.html" aria-label="Fermer" style="width: 44px; height: 44px; margin-right: -10px; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 4l10 10M14 4L4 14" stroke="#44332A" stroke-width="1.5"></path></svg></a>
+</div>
+
+<div style="position: relative; padding: 18px 18px 16px; background: #F6EADF; border-radius: 20px; display: flex; flex-direction: column; gap: 10px; overflow: hidden">
+<svg aria-hidden="true" width="120" height="60" viewBox="0 0 22 11" fill="none" style="position: absolute; right: -10px; bottom: -4px"><path d="M3 11a8 8 0 0 1 16 0" fill="#EBC6A1" fill-opacity="0.6"></path></svg>
+<span style="position: relative; font-family: Gloock, Georgia, serif; font-size: 26px; line-height: 1" id="resa-cours">Yoga flow</span>
+<span id="resa-quand" style="position: relative; font-size: 15px; font-weight: 600">Mardi 4 août · 19h00</span>
+<span style="position: relative; display: flex; align-items: center; gap: 10px; font-size: 14px; color: #5A463A"><span aria-hidden="true" style="width: 30px; height: 30px; border-radius: 50%; background: #EBC6A1; display: flex; align-items: center; justify-content: center; font-family: Gloock, Georgia, serif; font-size: 14px; color: #44332A" id="resa-init">K</span><span id="resa-avec">avec Khadija · Studio Aurora, Anfa</span></span>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 8px">
+<label for="resa-prenom" style="font-size: 14px; font-weight: 600">Ton prénom</label>
+<input id="resa-prenom" type="text" autocomplete="given-name" placeholder="Ton prénom" style="height: 52px; box-sizing: border-box; padding: 0 16px; border: 1px solid #D9C4AE; border-radius: 14px; background: #FFFFFF; font-size: 16px; color: #44332A">
+</div>
+<label style="display: flex; align-items: center; gap: 12px; min-height: 44px; font-size: 15px; cursor: pointer">
+<input type="checkbox" id="resa-premier" checked style="width: 20px; height: 20px; margin: 0; accent-color: #A65A35">
+C'est mon premier cours à Aurora
+</label>
+
+<div style="display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #6B5446">Ton message, prêt à envoyer</span>
+<div style="position: relative; align-self: flex-end; max-width: 300px; padding: 12px 14px 22px; background: #E9DCCB; border-radius: 16px 16px 4px 16px; font-size: 14px; line-height: 1.5; white-space: pre-line"><span id="resa-msg"></span><span style="position: absolute; right: 12px; bottom: 6px; font-size: 11px; color: #6B5446">maintenant</span></div>
+</div>
+
+<a href="https://wa.me/212667113222" target="_blank" rel="noopener" id="resa-envoyer" target="_blank" rel="noopener" class="envoyer" style="height: 56px; display: flex; align-items: center; justify-content: center; gap: 10px; border-radius: 999px; background: #A65A35; color: #FFF6EF; font-size: 16px; font-weight: 600"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 0 0-7.4 12.7L3.5 20.5l4.4-1.1A8.5 8.5 0 1 0 12 3.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path><path d="M9.2 9.4c0 2.6 2.4 5 5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg>Envoyer sur WhatsApp</a>
+<span style="font-size: 13px; line-height: 1.5; color: #6B5446; text-align: center">L'équipe te confirme ta place par message.</span>
+</section>
+</div>
+
+<script>
+var menuBtn = document.getElementById('btn-menu');
+var menu = document.getElementById('menu-mobile');
+if (menuBtn && menu) {
+  menuBtn.addEventListener('click', function () {
+    var open = menuBtn.getAttribute('aria-expanded') === 'true';
+    menuBtn.setAttribute('aria-expanded', open ? 'false' : 'true');
+    menu.hidden = open;
+  });
+  menu.querySelectorAll('a').forEach(function (l) {
+    l.addEventListener('click', function () { menu.hidden = true; menuBtn.setAttribute('aria-expanded', 'false'); });
+  });
+}
+var ctaHero = document.getElementById('cta-hero-m');
+var barre = document.getElementById('barre-m');
+if (barre) {
+  if (ctaHero && 'IntersectionObserver' in window) {
+    new IntersectionObserver(function (e) { barre.style.transform = e[0].isIntersecting ? 'translateY(110%)' : 'none'; }).observe(ctaHero);
+  } else { barre.style.transform = 'none'; }
+}
+var jours = document.querySelectorAll('.jour');
+jours.forEach(function (b) {
+  b.addEventListener('click', function () {
+    jours.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+    document.querySelectorAll('.panneau').forEach(function (p) { p.hidden = p.getAttribute('data-jour') !== b.getAttribute('data-jour'); });
+  });
+});
+var resaCours = document.getElementById('resa-cours');
+if (resaCours) {
+  var q = new URLSearchParams(window.location.search);
+  var cours = q.get('cours') || 'Yoga flow';
+  var jour = q.get('jour') || 'mardi 4 août';
+  var heure = q.get('heure') || '19h00';
+  var avec = q.get('avec') || 'Khadija';
+  resaCours.textContent = cours;
+  document.getElementById('resa-quand').textContent = jour.charAt(0).toUpperCase() + jour.slice(1) + ' · ' + heure;
+  document.getElementById('resa-init').textContent = avec.charAt(0);
+  document.getElementById('resa-avec').textContent = 'avec ' + avec + ' · Studio Aurora, Anfa';
+  var prenom = document.getElementById('resa-prenom');
+  var premier = document.getElementById('resa-premier');
+  var bulle = document.getElementById('resa-msg');
+  var envoyer = document.getElementById('resa-envoyer');
+  var maj = function () {
+    var p = prenom.value.trim();
+    var msg = 'Bonjour Aurora, je souhaite réserver le cours de ' + cours + ' du ' + jour + ' à ' + heure + ' avec ' + avec + '.'
+      + (p ? '\nPrénom : ' + p : '')
+      + (premier.checked ? '\nC’est mon premier cours chez vous.' : '');
+    bulle.textContent = msg;
+    envoyer.href = 'https://wa.me/212667113222?text=' + encodeURIComponent(msg);
+  };
+  prenom.addEventListener('input', maj);
+  premier.addEventListener('change', maj);
+  maj();
+}
+</script>
+</body>
+</html>
